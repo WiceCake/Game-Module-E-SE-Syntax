@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.canvas{
+    height: 720px;
+    width: 1280px;
+    border: solid 1px black;
+    position: relative;
+    background-color: blue;
+}
+
+.main-area{
+    position: absolute;
+    top: 126px;
+    left: 324px;
+    z-index: 1;
+}
+
+.tree{
+    position: absolute;
+    top: 212px;
+    left: 107px;
+    z-index: 2;
+}
+
+.grass-1{
+    position: absolute;
+    bottom: 212px;
+    left: 303px;
+    z-index: 3;
+}
+
+
+
+
